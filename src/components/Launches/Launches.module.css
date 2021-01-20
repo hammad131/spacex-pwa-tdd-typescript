@@ -1,0 +1,93 @@
+.toppad{
+    padding-top: 30px;
+}
+.border{
+    border: 2px solid #fff;
+}
+.button{
+    display: inline;
+}
+.heading {
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 5rem;
+    font-style: bolder;
+    font-weight: bolder;
+    margin-top: 120px;
+
+  }
+.launchHeading{
+    text-align: center; 
+    color: white;
+    padding-top: 20px;
+}
+
+.root {
+    background-color: black;
+    width: 100vw;
+  
+    padding: 80px 0px;
+    color: white;
+  }
+  .headingContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+  
+    border-bottom: 1px solid white;
+  }
+  .sfContainer {
+    display: flex;
+  }
+  .sfMain {
+    width: 80vw;
+    margin-left: 10vw;
+    padding: 1rem;
+  }
+  .succesBlock {
+    width: 2.5rem;
+    height: 1.3rem;
+    background-color: green;
+  }
+  .failBlock {
+    width: 2.5rem;
+    height: 1.3rem;
+    background-color: red;
+  }
+  .btn{
+    color: #ffff !important;
+   
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    letter-spacing: 0.6rem;
+    font-weight: bolder;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+    cursor: pointer;
+    
+  
+}
+
+.btn:hover{
+    color:#000 !important;
+    background: #ffff;
+    border-color: 4px solid #000 !important;
+    cursor: pointer;
+}
+  @media screen and (max-width: 768px) {
+    .sfMain {
+      width: 90vw;
+      margin-left: 5vw;
+    }
+  }
+  
