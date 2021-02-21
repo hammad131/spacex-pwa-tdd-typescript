@@ -6,9 +6,11 @@ import Launches from "./components/Launches";
 import LaunchDetails from "./components/LaunchDetails";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
+import {configNotification} from './firebase';
 
 
 function App() {
+  configNotification()
   return (
     <Router>
       <div>
